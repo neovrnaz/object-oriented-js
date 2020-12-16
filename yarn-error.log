@@ -1,0 +1,31 @@
+Arguments: 
+  /usr/local/Cellar/node/15.3.0/bin/node /usr/local/Cellar/yarn/1.22.10/libexec/bin/yarn.js init -y
+
+PATH: 
+  /Users/elijahgray/.yarn/bin:/Users/elijahgray/.config/yarn/global/node_modules/.bin:/Users/elijahgray/.rbenv/shims:/Users/elijahgray/.rbenv/bin:/usr/local/bin:info Visit https://yarnpkg.com/en/docs/cli/global for documentation about this command.:/usr/local/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/TeX/texbin:/Library/Apple/usr/bin:/Users/elijahgray/.rbenv/bin:/Users/elijahgray/Developer/object-oriented-js/node_modules/.bin:/Users/elijahgray/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.3.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/elijahgray/Developer/object-oriented-js/package.json: Unexpected end of JSON input
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:310:30)
+      at /usr/local/Cellar/yarn/1.22.10/libexec/lib/cli.js:321:13
+
+npm manifest: 
+  
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
